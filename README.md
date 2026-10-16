@@ -6,7 +6,8 @@
 One forward pass over a colour fundus photo gives three outputs:
 
 1. **eight independent disease probabilities** (Normal, Diabetes, Glaucoma, Cataract, AMD, Hypertension, Myopia, Other),
-
+2. **a per-disease localisation map** (soft heat-map + hard mask),
+3. **a short structured text report** naming each positive finding and the retinal region where the evidence was.
 
 > **Course project** — Deep Learning, B.Tech CSE (AI), Amrita Vishwa Vidyapeetham, Coimbatore.
 > Team: Sai Reddy A., Jithin Reddy K., Rohith Vardhan M., Sai Vandith Reddy.
